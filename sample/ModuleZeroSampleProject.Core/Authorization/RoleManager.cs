@@ -1,6 +1,7 @@
 ﻿using Abp.Authorization;
 using Abp.Authorization.Roles;
 using Abp.Domain.Uow;
+using Abp.Runtime.Caching;
 using Abp.Zero.Configuration;
 using ModuleZeroSampleProject.MultiTenancy;
 using ModuleZeroSampleProject.Users;
