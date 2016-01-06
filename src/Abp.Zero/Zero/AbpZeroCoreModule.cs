@@ -11,12 +11,13 @@ namespace Abp.Zero
     /// <summary>
     /// ABP zero core module.
     /// </summary>
+    [DependsOn(typeof(AbpKernelModule))]
     public class AbpZeroCoreModule : AbpModule
     {
         /// <summary>
         /// Current version of the zero module.
         /// </summary>
-        public const string CurrentVersion = "0.7.4.0";
+        public const string CurrentVersion = "0.7.7.0";
 
         public override void PreInitialize()
         {
